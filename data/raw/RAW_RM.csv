@@ -1,0 +1,44 @@
+rm_id,rm_name,branch_id,rm_type
+1,Tran Anh,1,RM SME
+2,Hoang Kien,1,RM Ca nhan
+3,Le Dung,1,RM SME
+4,Do Chi,1,RM SME
+5,Dang Binh,1,RM Ca nhan
+6,Pham Kien,2,RM SME
+7,Ngo Anh,2,RM SME
+8,Pham Tuan,2,RM Uu tien
+9,Bui Van,3,RM Uu tien
+10,Nguyen Ha,3,RM SME
+11,Dang Nam,3,RM Uu tien
+12,Pham Nam,4,RM Ca nhan
+13,Tran Phuong,4,RM Ca nhan
+14,Vu Oanh,4,RM SME
+15,Nguyen Son,5,RM SME
+16,Tran Phuong,5,RM Ca nhan
+17,Do Minh,5,RM SME
+18,Ngo Oanh,5,RM SME
+19,Tran Binh,6,RM SME
+20,Pham Minh,6,RM Ca nhan
+21,Pham Dung,6,RM Uu tien
+22,Bui Oanh,7,RM Ca nhan
+23,Vu Oanh,7,RM Ca nhan
+24,Hoang Chi,7,RM SME
+25,Le Tuan,7,RM SME
+26,Le Son,8,RM Uu tien
+27,Hoang Tuan,8,RM Ca nhan
+28,Vu Binh,8,RM Ca nhan
+29,Vu Phuong,9,RM Uu tien
+30,Tran Huong,9,RM SME
+31,Vu Huong,9,RM SME
+32,Dang Son,10,RM Ca nhan
+33,Hoang Giang,10,RM Ca nhan
+34,Do Tuan,10,RM Uu tien
+35,Ngo Quang,10,RM SME
+36,Vu Kien,11,RM Ca nhan
+37,Do Thao,11,RM Ca nhan
+38,Nguyen Dung,11,RM Ca nhan
+39,Le Quang,11,RM SME
+40,Dang Phuong,12,RM SME
+41,Bui Trang,12,RM Uu tien
+42,Do Anh,12,RM SME
+43,Nguyen Van Khuyet,,RM Ca nhan
