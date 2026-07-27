@@ -1,0 +1,56 @@
+{
+  "expectations": [
+    {
+      "id": "83264bd9-85bf-49b5-b760-dd2d80d2c009",
+      "kwargs": {
+        "column": "transaction_date"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "493ecb01-7987-40c8-ab09-6f412f6b18c8",
+      "kwargs": {
+        "column": "transaction_id"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_unique"
+    },
+    {
+      "id": "fa1974d7-385b-45fd-9095-c0ac0a8d46ad",
+      "kwargs": {
+        "column": "amount_vnd",
+        "min_value": 0.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "7e218079-b316-4d9a-ac66-d00aeccef030",
+      "kwargs": {
+        "column": "customer_key"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "030e04c8-d988-4ce2-badc-c52f852e0113",
+      "kwargs": {
+        "column": "product_key"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    }
+  ],
+  "id": "eb865172-e8c7-470a-9234-6f9ae82885ff",
+  "meta": {
+    "great_expectations_version": "1.19.1"
+  },
+  "name": "fact_transaction_quality",
+  "notes": null
+}

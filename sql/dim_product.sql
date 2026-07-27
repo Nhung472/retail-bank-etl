@@ -1,10 +1,3 @@
-from database import get_connection
-
-
-con = get_connection()
-
-
-con.execute("""
 CREATE OR REPLACE TABLE DIM_PRODUCT AS
 
 SELECT
@@ -21,8 +14,3 @@ SELECT
 
 
 FROM STG_PRODUCT;
-
-""")
-
-
-con.close()
