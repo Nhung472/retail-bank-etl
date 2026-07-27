@@ -1,0 +1,21 @@
+CREATE OR REPLACE TABLE STG_TRANSACTION AS
+
+SELECT *
+
+FROM STG_TRANSACTION
+
+WHERE
+
+transaction_id IS NOT NULL
+
+AND customer_id IS NOT NULL
+
+AND product_id IS NOT NULL
+
+AND branch_id IS NOT NULL
+
+AND rm_id IS NOT NULL
+
+AND amount_vnd IS NOT NULL
+
+AND amount_vnd>=0;
